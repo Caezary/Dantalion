@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dantalion.Console", "Dantalion.Console\Dantalion.Console.csproj", "{B07F9B2F-968F-49D5-A266-B842E0A5CF82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dantalion.Library", "Dantalion.Library\Dantalion.Library.csproj", "{E5B446E9-3C4E-45FB-93BE-953F7B0F487B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dantalion.Library.Specs", "Dantalion.Library.Specs\Dantalion.Library.Specs.csproj", "{461D9F82-DC0A-4850-AE6C-2ECE93FE5A63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{B07F9B2F-968F-49D5-A266-B842E0A5CF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B07F9B2F-968F-49D5-A266-B842E0A5CF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B07F9B2F-968F-49D5-A266-B842E0A5CF82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B446E9-3C4E-45FB-93BE-953F7B0F487B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B446E9-3C4E-45FB-93BE-953F7B0F487B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B446E9-3C4E-45FB-93BE-953F7B0F487B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B446E9-3C4E-45FB-93BE-953F7B0F487B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{461D9F82-DC0A-4850-AE6C-2ECE93FE5A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461D9F82-DC0A-4850-AE6C-2ECE93FE5A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461D9F82-DC0A-4850-AE6C-2ECE93FE5A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461D9F82-DC0A-4850-AE6C-2ECE93FE5A63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
