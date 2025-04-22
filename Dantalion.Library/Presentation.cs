@@ -54,7 +54,7 @@ public static class Presentation
     {
         foreach (var (chapterName, implementation) in Chapters)
         {
-            var context = new PresentationContext(_outputProvider);
+            var context = new PresentationContext(_outputProvider, ChapterLevel: 0);
 
             _outputProvider.OutputChapterName(chapterName);
             implementation(context);
